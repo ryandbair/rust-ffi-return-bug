@@ -1,0 +1,14 @@
+[package]
+name = "rust-ffi-return-bug"
+version = "1.0.0"
+build = "build.rs"
+
+[dependencies]
+libc = "0.1"
+
+[build-dependencies]
+gcc = "0.3"
+
+[dependencies.opencv]
+git = "https://github.com/ryandbair/opencv-rust.git"
+rev = "781a4d384c20156387ad95d4d2bb3e7a970e79ce"
